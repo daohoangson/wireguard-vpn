@@ -25,11 +25,9 @@ wg-ubuntu-server-up.sh [<number_of_clients>]
 ### Example of usage
 
 ```bash
-./wg-ubuntu-server-up.sh
-```
-
-```bash
-./wg-ubuntu-server-up.sh 10
+wget https://raw.githubusercontent.com/daohoangson/wireguard-vpn/master/wg-ububtu-server-up.sh
+chmod +x ./wg-ububtu-server-up.sh
+./wg-ububtu-server-up.sh 10
 ```
 
 ## wg-genconf.sh
